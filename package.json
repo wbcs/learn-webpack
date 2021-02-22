@@ -1,0 +1,39 @@
+{
+  "name": "learn-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node scripts/dev.js",
+    "build": "webpack --config scripts/config.js"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "wbcs",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^8.2.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.17",
+    "@babel/preset-react": "^7.12.13",
+    "@babel/preset-typescript": "^7.12.17",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "core-js": "^3.9.0",
+    "css-loader": "^5.0.2",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^5.2.0",
+    "less": "^4.1.1",
+    "less-loader": "^8.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-middleware": "^4.1.0",
+    "webpack-hot-middleware": "^2.25.0"
+  }
+}
